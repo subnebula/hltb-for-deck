@@ -145,7 +145,12 @@ async function fetchSearchResultsWithKey(gameName: string, apiKey: string) {
                 sortCategory: 'name',
                 rangeCategory: 'main',
                 rangeTime: { min: null, max: null },
-                gameplay: { perspective: '', flow: '', genre: '', subGenre: " " },
+                gameplay: {
+                    perspective: '',
+                    flow: '',
+                    genre: '',
+                    subGenre: '',
+                },
                 modifier: 'hide_dlc',
             },
             users: {},
